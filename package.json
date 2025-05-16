@@ -1,22 +1,14 @@
 {
   "name": "json-server-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-  "build": "react-scripts build",
-  "dev": "react-scripts start",
-  "server": "json-server --watch db.json --port 5000"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   },
   "engines": {
-  "node": ">=16.0.0"
-}
-
+    "node": ">=16.0.0"
+  }
 }
