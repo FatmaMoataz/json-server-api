@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "prestart": "npm install" 
+    "start": "node --watch db.json"
   },
   "engines": {
     "node": ">=16.0.0"
